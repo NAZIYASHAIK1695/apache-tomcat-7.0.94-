@@ -1,0 +1,385 @@
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.10.130-118.517.amzn2.x86_64
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.332.b09-1.amzn2.0.2.x86_64/jre
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_332-b09
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Red Hat, Inc.
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /apache-tomcat-7.0.94
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /apache-tomcat-7.0.94
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/apache-tomcat-7.0.94/conf/logging.properties
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/apache-tomcat-7.0.94
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/apache-tomcat-7.0.94
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/apache-tomcat-7.0.94/temp
+Aug 28, 2022 6:55:54 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 28, 2022 6:55:54 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 28, 2022 6:55:54 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2655 ms
+Aug 28, 2022 6:55:54 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 28, 2022 6:55:54 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Aug 28, 2022 6:55:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/ROOT
+Aug 28, 2022 6:55:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/ROOT has finished in 1,331 ms
+Aug 28, 2022 6:55:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/docs
+Aug 28, 2022 6:55:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/docs has finished in 218 ms
+Aug 28, 2022 6:55:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/examples
+Aug 28, 2022 6:55:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/examples has finished in 1,009 ms
+Aug 28, 2022 6:55:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/host-manager
+Aug 28, 2022 6:55:57 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 28, 2022 6:55:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/host-manager has finished in 203 ms
+Aug 28, 2022 6:55:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/manager
+Aug 28, 2022 6:55:57 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Aug 28, 2022 6:55:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/manager has finished in 177 ms
+Aug 28, 2022 6:55:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 28, 2022 6:55:58 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2022 6:55:58 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3265 ms
+Aug 28, 2022 7:02:11 AM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.InternalInputBuffer.parseRequestLine(InternalInputBuffer.java:140)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1050)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+Aug 28, 2022 7:18:36 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:18:37 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:18:37 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:18:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:18:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:18:40 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:18:42 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:18:42 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:18:43 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:18:45 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:18:45 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:18:45 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:18:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:18:48 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:18:48 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:18:50 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:18:51 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:18:51 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:19:01 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:19:01 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:19:02 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:19:02 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:19:03 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:19:03 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:19:03 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:19:04 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:19:04 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:19:05 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:19:05 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:19:05 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:19:06 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:19:06 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:19:07 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:19:07 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:19:07 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:19:08 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:19:08 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:19:09 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:19:09 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:19:09 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:19:10 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:19:10 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:19:11 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:19:11 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:19:11 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:19:12 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:19:12 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:19:12 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:19:13 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:19:13 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:19:14 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:19:14 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:19:15 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:19:15 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:19:15 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:19:16 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:19:16 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:19:17 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:19:17 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:19:17 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:21:34 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:21:35 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:21:35 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:21:36 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:21:36 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:21:36 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:21:37 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "root"
+Aug 28, 2022 7:21:37 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:21:38 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:21:38 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:21:38 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:21:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:21:39 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:21:40 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "role"
+Aug 28, 2022 7:21:40 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:21:40 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:21:41 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:21:41 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:21:41 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:21:42 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:21:42 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "admin"
+Aug 28, 2022 7:21:43 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:21:43 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:21:43 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:21:44 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:21:44 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:21:45 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:21:45 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Aug 28, 2022 7:21:45 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:21:46 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:21:46 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:21:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:21:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:21:47 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:21:48 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "test"
+Aug 28, 2022 7:21:48 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:21:49 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:21:49 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:21:49 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:21:50 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:21:50 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:21:51 AM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+WARNING: An attempt was made to authenticate the locked user "user"
+Aug 28, 2022 7:40:50 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 28, 2022 7:40:50 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Aug 28, 2022 7:40:50 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2022 7:40:50 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 28, 2022 7:40:50 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Aug 28, 2022 7:40:50 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2022 7:40:50 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Aug 28, 2022 7:40:50 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.94
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 10 2019 16:56:40 UTC
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.94.0
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            5.10.130-118.517.amzn2.x86_64
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.332.b09-1.amzn2.0.2.x86_64/jre
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_332-b09
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Red Hat, Inc.
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /apache-tomcat-7.0.94
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /apache-tomcat-7.0.94
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/apache-tomcat-7.0.94/conf/logging.properties
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/apache-tomcat-7.0.94
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/apache-tomcat-7.0.94
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/apache-tomcat-7.0.94/temp
+Aug 28, 2022 7:41:00 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 28, 2022 7:41:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 28, 2022 7:41:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1224 ms
+Aug 28, 2022 7:41:00 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 28, 2022 7:41:00 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.94
+Aug 28, 2022 7:41:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/ROOT
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/ROOT has finished in 571 ms
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/docs
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/docs has finished in 115 ms
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/examples
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/examples has finished in 479 ms
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/host-manager
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/host-manager has finished in 101 ms
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /apache-tomcat-7.0.94/webapps/manager
+Aug 28, 2022 7:41:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /apache-tomcat-7.0.94/webapps/manager has finished in 89 ms
+Aug 28, 2022 7:41:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 28, 2022 7:41:01 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2022 7:41:02 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1529 ms
